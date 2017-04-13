@@ -1,6 +1,6 @@
 # generate-UCSC-tracks-in-batches
 There are many files to be writen in tracks in a project.We can write them all once with mktrackDb.py</br>
-*usage
+* usage
 ```Options:
   -h, --help            show this help message and exit
   -n TNAME, --track=TNAME
@@ -18,7 +18,7 @@ There are many files to be writen in tracks in a project.We can write them all o
   -o OUTPUT, --outputname=OUTPUT
                         file name of trackDb
 ```
-*for example
+* for example
 ```
 for i in `ls | grep .bw` ;do ../../mktrackDb.py -n $i -t bigWig -u $i -g "dalian Mecical University" -s `echo $i | awk -F "." '{print $1}'` -l `echo $i | awk -F "." '{print $1}' ` -o test_trackDb.txt ;echo $i;done
 ```
