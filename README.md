@@ -4,7 +4,7 @@ There are many files to be writen in tracks in a project.We can write them all o
 ```Options:
   -h, --help            show this help message and exit
   -n TNAME, --track=TNAME
-                        track value
+                        name value
   -t DTYPE, --type=DTYPE
                         type value
   -u DATAURL, --bigDataUrl=DATAURL
