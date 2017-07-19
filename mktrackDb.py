@@ -3,7 +3,7 @@ import sys
 usage = "usage: %prog [options] arg"
 parser = OptionParser(usage)
 parser.add_option("-n", "--track", dest="tname",
-                      help="type value")
+                      help="name value")
 parser.add_option("-t", "--type", dest="dtype",
                       help="type value")
 parser.add_option("-u", "--bigDataUrl", dest="DataUrl",
